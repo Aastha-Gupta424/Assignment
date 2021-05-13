@@ -83,7 +83,7 @@ a{
     font-size: medium; 
     color: #A9A9A9;
     margin-top: -11%;
-    margin-left: 30%;
+    margin-left: 50%;
   }
   
   .like{
@@ -95,7 +95,7 @@ a{
   .brand{
   text-align: left;
   margin-bottom: -5%;
-  margin-top: -66%;
+  margin-top: -38%;
   font-size: 1rem;
   background-color: #342546;
   color: white;
@@ -118,16 +118,16 @@ a{
     background-color: white;
     border-radius: 8%;
     box-shadow: 0 18px 16px -6px #0000002a;
-    width: 55%;
+    width: 66%;
     height: 26%;
     padding-left: 2%;
-    margin-top: -30%;
+    margin-top: -15%;
   }
   
   .img{
-    margin: 5%;
-    height: 40rem;
-    width: 30rem;
+    margin: 5%;  
+    height: 25rem;
+    width: 19rem;
     border-radius: 10%;
     background-image: url('/assests/dome-ring.png');
     background-repeat: no-repeat;
@@ -136,8 +136,8 @@ a{
   
   .img1{
     margin: 5%;
-    height: 40rem;
-    width: 30rem;
+    height: 25rem;
+    width: 19rem;
     border-radius: 10%;
     background-repeat: no-repeat;
     background-size: auto;
@@ -183,10 +183,9 @@ a{
         font-size: 0.8rem;
         line-height: 1.4;
         margin-bottom: 15%;
-        margin-right: 4%;
         color: #13141B;
       }
-  
+
       .img{
         margin: 5%;
          height: 170pt;
@@ -200,7 +199,7 @@ a{
        .img1{
          margin: 5%;
          height: 170pt;
-         width: 100pt;
+         width: 110pt;
          border-radius: 10%;
          background-repeat: no-repeat;
          background-image: url('/assests/leaf-earrings.png');
@@ -212,7 +211,7 @@ a{
         margin-left: 75%;
         height: 12%;
       }
-  
+
       .brand{
       text-align: left;
       margin-bottom: -6%;
