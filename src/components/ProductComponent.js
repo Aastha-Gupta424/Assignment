@@ -33,7 +33,7 @@ export default function Products() {
   )
 }
 
-const Product = ({ data, key }) => {
+const Product = ({ data }) => {
   const [isLikeCardOne, setLikeCardOne] = useState(false);
   const [isLikeCardTwo, setLikeCardTwo] = useState(false);
 

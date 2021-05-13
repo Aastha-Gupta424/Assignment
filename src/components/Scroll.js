@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import MediaQuery from 'react-responsive';
 const axios = require('axios');
 
 class Scroll extends Component {
@@ -23,15 +22,13 @@ class Scroll extends Component {
       }
 
     render() {
-        let buttonSelectedTheme = this.state.buttonSelected === 1 ? "mode selected" : "mode NotSelectedButton";
         const vendor = this.state.vendorsList
         return (
             <>
                 {vendor != null
                     ? (
-                        <MediaQuery minDeviceWidth={1224} values={{ deviceWidth: 1600 }}>
                             <div id="stripe">
-                                <button
+                                <button id="one"
                                     className={this.state.buttonSelected === 1 ? "mode selected" : "mode NotSelectedButton"}
                                     onClick={() => this.setState({ buttonSelected: 1 })}
                                 >
@@ -75,7 +72,6 @@ class Scroll extends Component {
                                     {vendor[5].name}
                                 </button>
                             </div>
-                        </MediaQuery>
                     ) : null
                 }
             </>

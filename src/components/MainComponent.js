@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import Scroll from './Scroll';
-import ScrollingHorizontally from './ScrollComponent';
 import Products from './ProductComponent';
 
 
@@ -18,7 +17,6 @@ class Main extends Component {
             <div>
                 <Header />
                 <Scroll />
-                <ScrollingHorizontally />
                 <Products />
             </div>
         )
