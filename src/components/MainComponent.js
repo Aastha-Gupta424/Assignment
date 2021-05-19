@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Scroll from './Scroll';
 import Products from './ProductComponent';
+import Menu from './VerticalComponent';
 
 
 
@@ -15,6 +16,7 @@ class Main extends Component {
     render() {
         return (
             <div>
+                <Menu />
                 <Header />
                 <Scroll />
                 <Products />

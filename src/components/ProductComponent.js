@@ -43,7 +43,7 @@ const Product = ({ data }) => {
   return (
     <Card className="card">
 
-      <div className="item">
+      <div className="item" >
 
         <div className="img" wrapped ui={true}>
           <img className="like" src={imageCardOne} onClick={(() => setLikeCardOne(!isLikeCardOne))} />
